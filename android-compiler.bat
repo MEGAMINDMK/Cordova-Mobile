@@ -24,21 +24,21 @@ goto start
 :Compile_Debug
 ECHO Compile Debug
 title Compile APK
-set folderpath=android_webnet
+set folderpath=android_project
 cd %folderpath%
 cordova build android
 goto end
 :Compile_Release
 ECHO Compile Release
 title Compile APK
-set folderpath=android_webnet
+set folderpath=android_project
 cd %folderpath%
 cordova build --release android
 goto end
 :Sign_Release
 ECHO Sign Release
 title Compile APK Certificate (License)
-set folderpath=android_webnet
+set folderpath=android_project
 cd %folderpath%\platforms\android\app\build\outputs\apk\release
 set alias=android
 keytool -genkey -v -keystore %alias%.keystore -alias %alias% -keyalg RSA -keysize 2048 -validity 10000
@@ -48,12 +48,12 @@ start C:\cordova\Android\android-sdk\build-tools\29.0.3\zipalign -v 4 app-releas
 goto end
 :Open_Debug
 ECHO Open Debug
-set folderpath=android_webnet
+set folderpath=android_project
 start %folderpath%\platforms\android\app\build\outputs\apk\debug
 goto end
 :Open_Release
 ECHO Open Release
-set folderpath=android_webnet
+set folderpath=android_project
 start %folderpath%\platforms\android\app\build\outputs\apk\release
 goto end
 :Open_Compressors
