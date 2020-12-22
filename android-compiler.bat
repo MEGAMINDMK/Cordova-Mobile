@@ -1,5 +1,5 @@
 :: ANDROID BROWSER COMPILER STARTS
-:: Make sure to change you project path / folder name at line 27,34,42,50,56
+:: Make sure to change you project path / folder name at line 27,34,42,51,56
 @ECHO off
 title Android Compiler
 cls
