@@ -16,7 +16,7 @@ Make sure to change <b>changeme</b> to ur <b>pathname</b>
 Its also neccessary that all files must be present in <b>C:</b> Drive
 
     PATH
-    C:\Users\changeme\AppData\Roaming\npm;C:\cordova\apache-ant-1.10.7\bin;C:\cordova\gradle-6.1\bin;C:\cordova\Java\jdk1.8.0_241\bin;C:\cordova\Android\android-sdk\tools;C:\cordova\Android\android-sdk\platform-tools;C:\cordova\Android\android-sdk\build-tools\29.0.2
+    C:\Users\changeme\AppData\Roaming\npm;C:\cordova\gradle-6.1\bin;
 
 # Tutorial
 <a href="https://www.studytonight.com/apache-cordova/tools-for-app-development#">Link</a><br>
