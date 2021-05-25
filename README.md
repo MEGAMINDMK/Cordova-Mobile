@@ -28,4 +28,5 @@ Its also neccessary that all files must be present in <b>C:</b> Drive
 <a href="https://dl.google.com/android/installer_r24.4.1-windows.exe">Android-SDK</a><br>
 <a href="https://nodejs.org/dist/v16.2.0/node-v16.2.0-x64.msi">Node-NPM</a><br>
 
-<img src="images/bandicam 2021-05-25 16-40-01-224.jpg" width="400" height="250"><img src="images/bandicam 2021-05-25 16-40-25-090.jpg" width="400" height="250">
+<img src="images/bandicam 2021-05-25 16-40-01-224.jpg" width="400" height="250"><br>
+<img src="images/bandicam 2021-05-25 16-40-25-090.jpg" width="400" height="250">
