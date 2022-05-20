@@ -23,7 +23,7 @@ Its also neccessary that all files must be present in <b>C:</b> Drive
 
 # Neccessary Files to Download
 <a href="https://services.gradle.org/distributions/gradle-6.1-all.zip">Gradle</a><br>
-<a href="https://download.oracle.com/otn-pub/java/jdk/8u291-b10/d7fc238d0cbf4b0dac67be84580cfb4b/jdk-8u291-windows-x64.exe">Java jdk8</a><br>
+<a href="https://download.oracle.com/otn/java/jdk/8u291-b10/d7fc238d0cbf4b0dac67be84580cfb4b/jdk-8u291-windows-x64.exe">Java jdk8</a><br>
 <a href="https://downloads.apache.org//ant/binaries/apache-ant-1.10.10-bin.zip">apache-ant</a><br>
 <a href="https://dl.google.com/android/installer_r24.4.1-windows.exe">Android-SDK</a><br>
 <a href="https://nodejs.org/dist/v16.2.0/node-v16.2.0-x64.msi">Node-NPM</a><br>
