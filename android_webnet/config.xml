@@ -1,26 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.kntfm" version="1.0.6" xmlns="https://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="https://cordova.apache.org/ns/1.0">
+<widget id="io.cordova.kntfm" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>App Name</name>
     <description>App Description</description>
     <author email="muhommadraahim1@gmail.com" href="https://web-net.ml">M Raahim Khattak</author>
+    
     <preference name="stay-in-webview" value="true" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="OverrideUserAgent" value="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36" />
-	<preference name="android-compileSdkVersion" value="34" />
+    <preference name="android-compileSdkVersion" value="34" />
     <preference name="android-targetSdkVersion" value="34" />
     <preference name="AndroidXEnabled" value="true" />
     <preference name="errorUrl" value="file:///android_asset/www/error.html" />
     <preference name="LoadUrlTimeoutValue" value="10000" />
-	<preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/logo.png" />
-	<preference name="AndroidWindowSplashScreenBackground" value="#ffffff" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/logo.png" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#ffffff" />
+    
     <content src="index.html" />
+    
     <plugin name="cordova-custom-config" source="npm" spec="*" />
+    
     <icon src="www/img/imageedit_4_8549818642.png" />
+    
     <access browserOnly="true" origin="*" subdomains="true" />
     <access launch-external="yes" origin="whatsapp:*" />
     <access launch-external="yes" origin="fb-messenger:*" />
+    
     <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -29,18 +35,21 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    
     <platform name="android">
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.INTERNET" />
-            <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
-            <uses-permission android:name="android.permissions.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
         </config-file>
+        
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
             <application android:networkSecurityConfig="@xml/network_security_config" />
         </edit-config>
+        
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application/activity" xmlns:android="http://schemas.android.com/apk/res/android">
             <activity android:exported="true" />
         </edit-config>
+        
         <resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
     </platform>
 </widget>
