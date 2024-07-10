@@ -12,7 +12,6 @@
 
 # Update sdkmanager
      
-     Command to update
      sdkmanager "platform-tools" "build-tools;33.0.2"
 
 # android_env
