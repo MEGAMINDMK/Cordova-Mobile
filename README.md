@@ -11,8 +11,9 @@
 <img src="images/bandicam 2020-11-17 20-42-03-086.jpg" width="400" height="250">
 
 # Update sdkmanager
-Command to update
-sdkmanager "platform-tools" "build-tools;33.0.2"
+     
+     Command to update
+     sdkmanager "platform-tools" "build-tools;33.0.2"
 
 # android_env
 Make sure to change <b>changeme</b> to ur <b>pathname</b>
