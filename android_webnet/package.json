@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-custom-config": "^5.1.1",
+    "onesignal-cordova-plugin": "^3.3.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-android-permissions": {},
+      "cordova-custom-config": {},
+      "onesignal-cordova-plugin": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova": "^6.1.1",
+    "cordova-plugin-android-permissions": "1.1.3",
+    "cordova-plugin-signed-bundle": "^1.0.1",
+    "npm": "^10.8.1"
+  }
+}
