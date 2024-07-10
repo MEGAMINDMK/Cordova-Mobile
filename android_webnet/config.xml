@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.kntfm" version="1.0.6" xmlns="https://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="https://cordova.apache.org/ns/1.0">
-    <name>KNT FM</name>
-    <description>KNT RECRUITMENT SERVICES</description>
+    <name>App Name</name>
+    <description>App Description</description>
     <author email="muhommadraahim1@gmail.com" href="https://web-net.ml">M Raahim Khattak</author>
     <preference name="stay-in-webview" value="true" />
     <preference name="orientation" value="default" />
