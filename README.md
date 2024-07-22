@@ -1,5 +1,5 @@
 # Cordova Discord Channel
-<a href="https://discord.com/invite/H7MrQa96"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="400" height="250">Cordova Discord Channel</a>
+<a href="https://discord.com/invite/H7MrQa96"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="100" height="50"><br><Br>Cordova Discord Channel</a>
 
 # Cordova Mobile Development
 <img src="images/bandicam 2020-11-16 16-42-56-808.jpg" width="400" height="250"><img src="images/bandicam 2020-11-16 16-43-16-194.jpg" width="400" height="250">
