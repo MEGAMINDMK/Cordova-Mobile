@@ -37,3 +37,10 @@ Its also neccessary that all files must be present in <b>C:</b> Drive
 
 <img src="images/bandicam 2021-05-25 16-40-01-224.jpg" width="400" height="250"><br>
 <img src="images/bandicam 2021-05-25 16-40-25-090.jpg" width="400" height="250">
+
+
+
+# Make Portable
+<img src="images/bandicam 2026-08-15 21-12-00-628.jpg" width="400" height="250"><br>
+<a href="https://github.com/MEGAMINDMK/Cordova-Mobile/blob/main/setup-cordova.bat">Get Portable</a><br>
+
